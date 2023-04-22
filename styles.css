@@ -637,7 +637,6 @@ i{
 }
 #portfolio .port-row .port-item{
     position: relative;
-    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
     transition: 0.2s;
@@ -654,8 +653,7 @@ i{
 
 #portfolio .port-row .port-item .port-img img{
     width: 100%;
-    height: 100%;
-    border-radius: 10px;
+    height: 100%
 }
 #portfolio .port-row .port-item .port-info{
     position: absolute;
@@ -674,7 +672,6 @@ i{
     gap: 10px;
     transform: scale(0);
     transition: 0.4s;
-    border-radius: 10px;
     visibility: hidden; 
 }
 #portfolio .port-row .port-item:hover .port-info{
